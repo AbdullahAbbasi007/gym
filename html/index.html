@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gym Landing Page</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+		/>
+		<link rel="stylesheet" href="../css/style.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+	<body>
+		<!-- Nav Bar  -->
+
+		<div class="container">
+			<nav class="nav">
+				<div class="left">
+					<div class="logo">
+						<img src="../imges/logo-1.png" alt="" />
+					</div>
+				</div>
+				<div class="right">
+					<ul id="hide-nav">
+						<i
+							class="fa fa-times"
+							id="fa-times"
+							onclick="hideMenu()"
+							aria-hidden="true"
+						></i>
+						<li><a href="">Home</a></li>
+						<li><a href="">Program</a></li>
+						<li><a href="">Pricing</a></li>
+						<li><a href="">Community</a></li>
+					</ul>
+					<i
+						class="fa fa-bars"
+						id="fa-bars"
+						aria-hidden="true"
+						onclick="showMenu(this)"
+					></i>
+					<div class="buttons">
+						<div class="login-btn">
+							<button class="login">Login</button>
+						</div>
+						<div class="register-btn">
+							<button class="register">Register</button>
+						</div>
+						<div class="moods">
+							<button class="light">
+								<input
+									type="checkbox"
+									name=""
+									id="checkbox"
+									class="fa fa-sun-o sun-light"
+								/>
+							</button>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<!-- Nav Bar  -->
+		<!-- Hero Section-->
+		<div class="container">
+			<div class="hero-section">
+				<div class="left">
+					<div class="text/btn">
+						<h1 class="h-primary">
+							Helps for your <br />
+							ideal body fitness
+						</h1>
+						<p class="para">
+							Motivate users with benefits and positive reinforcement, <br />
+							and offer modifications and progress tracking.
+						</p>
+						<button class="start">Start Training</button>
+						<button class="watch">
+							<span class="span fa fa-play"></span>Watch Demo
+						</button>
+					</div>
+				</div>
+				<div class="center">
+					<div class="img-side">Fitness</div>
+					<img src="../imges/img.1.png" alt="" />
+				</div>
+			</div>
+		</div>
+		<!-- Hero Section-->
+		<!-- Services Container-->
+		<p class="program">Program</p>
+		<div class="container">
+			<div class="text-container">
+				<div class="content">
+					<h2 class="h-secondary">Explore Our Program</h2>
+				</div>
+			</div>
+		</div>
+		<div class="swiper m-swiper">
+			<div class="swiper-wrapper swiper-container">
+				<div class="swiper-slide slide">
+					<img src="../imges/logo-4.png" alt="" />
+					<h3>Cardio Strength</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+						venenatis, nunc a pretium viverra.
+					</p>
+				</div>
+				<div class="swiper-slide slides">
+					<img src="../imges/logo-2.png" alt="" />
+					<h3>Fat Lose</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+						venenatis, nunc a pretium viverra.
+					</p>
+				</div>
+				<div class="swiper-slide slides">
+					<img src="../imges/logo-5.png" alt="" />
+					<h3>Muscle Gain</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+						venenatis, nunc a pretium viverra.
+					</p>
+				</div>
+				<div class="swiper-slide slides">
+					<img src="../imges/logo-3.png" alt="" />
+					<h3>Nutritions</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+						venenatis, nunc a pretium viverra.
+					</p>
+				</div>
+			</div>
+			<div class="swiper-button-next right-arrow"></div>
+			<div class="swiper-button-prev left-arrow"></div>
+		</div>
+		<!-- Services Container-->
+		<!-- Text-Container  -->
+		<div class="container">
+			<div class="hero">
+				<div class="image-side">
+					<div class="first-img">
+						<img src="../imges/img-3.png" alt="" />
+					</div>
+					<div class="second-img">
+						<img src="../imges/img.4.png" alt="" />
+					</div>
+					<div class="third-img">
+						<img src="../imges/img.2.png" alt="" />
+					</div>
+				</div>
+				<div class="text-side">
+					<h2 class="h-secondary">
+						Transform your <br />
+						physique with our <br />
+						fitness plan.
+					</h2>
+					<div class="text">
+						<p class="paragraph">
+							<i
+								class="fa fa-check-circle checked-circle"
+								aria-hidden="true"
+							></i
+							>Increase Muscle and Strength
+						</p>
+						<p class="paragraph">
+							<i
+								class="fa fa-check-circle checked-circle"
+								aria-hidden="true"
+							></i
+							>Be Healthier than before
+						</p>
+						<p class="paragraph">
+							<i
+								class="fa fa-check-circle checked-circle"
+								aria-hidden="true"
+							></i
+							>Increase Stamina
+						</p>
+					</div>
+					<div class="btns">
+						<button class="join-btn">Join now</button>
+						<button class="contact-btn">Contact us</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Text-Container  -->
+		<!-- Text Button Slide  -->
+		<div class="container">
+			<div class="text-btn-slide">
+				<div class="text-slide">
+					<p>
+						Enhance user experience with healthy nutrition tips, <br />
+						support resources, and social elements.
+					</p>
+				</div>
+				<div class="btn-slide">
+					<button class="button-slide">Join us</button>
+				</div>
+			</div>
+		</div>
+		<!-- Text Button Slide  -->
+		<!-- Pricing  -->
+		<div class="container">
+			<p class="price-para">Pricing</p>
+			<h1 class="h-third">Our List Packages</h1>
+			<div class="price-buttons">
+				<button class="month-btn">Billed Montly</button>
+				<button class="year-btn">Billed Yearly</button>
+			</div>
+
+			<div class="pricing-container">
+				<div class="price-box1">
+					<div class="package">
+						<div class="checklist">
+							<div>
+								<p class="pr-para">Basic Package</p>
+								<div class="doller">$25</div>
+								<p class="p-para">per month,bill annualy</p>
+							</div>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle black-circle"
+									aria-hidden="true"
+								></i
+								>Unlimited Gym Access
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle black-circle"
+									aria-hidden="true"
+								></i
+								>2x Fitness Consultant
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle black-circle"
+									aria-hidden="true"
+								></i
+								>Nutrition Tracking
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle black-circle"
+									aria-hidden="true"
+								></i
+								>1x Free Suplement
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle black-circle"
+									aria-hidden="true"
+								></i>
+								<b>3 Days per week</b>
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle black-circle"
+									aria-hidden="true"
+								></i
+								>Personal Trainer
+							</p>
+						</div>
+					</div>
+					<button class="reg-this">Register Now</button>
+				</div>
+				<div class="price-box2">
+					<div class="package">
+						<div class="offer">Best Offer</div>
+						<div class="checklist color">
+							<div>
+								<p class="pr-para color">Mid Package</p>
+								<div class="doller">$55</div>
+								<p class="p-para color">per month,bill annualy</p>
+							</div>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle white-circle"
+									aria-hidden="true"
+								></i
+								>Unlimited Gym Access
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle white-circle"
+									aria-hidden="true"
+								></i
+								>4x Fitness Consultant
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle white-circle"
+									aria-hidden="true"
+								></i>
+								Nutrition Tracking
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle white-circle"
+									aria-hidden="true"
+								></i>
+								3x Free Suplement
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle white-circle"
+									aria-hidden="true"
+								></i>
+								5 Days per week
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle white-circle"
+									aria-hidden="true"
+								></i
+								>Personal Trainer
+							</p>
+						</div>
+					</div>
+					<button class="reg-this bacground">Register Now</button>
+				</div>
+				<div class="price-box1">
+					<div class="package">
+						<div class="checklist">
+							<div>
+								<p class="pr-para">Pro Package</p>
+								<div class="doller">$75</div>
+								<p class="p-para">per month,bill annualy</p>
+							</div>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle black-circle"
+									aria-hidden="true"
+								></i
+								>Unlimited Gym Access
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle black-circle"
+									aria-hidden="true"
+								></i
+								>7x Fitness Consultant
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle black-circle"
+									aria-hidden="true"
+								></i>
+								Nutrition Tracking
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle black-circle"
+									aria-hidden="true"
+								></i>
+								5x Free Suplement
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle black-circle"
+									aria-hidden="true"
+								></i>
+								Gym Card
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle black-circle"
+									aria-hidden="true"
+								></i
+								>Personal Trainer
+							</p>
+						</div>
+					</div>
+					<button class="reg-this">Register Now</button>
+				</div>
+				<div class="price-box1">
+					<div class="package">
+						<div class="checklist">
+							<div>
+								<p class="pr-para">Athlete Package</p>
+								<div class="doller">$105</div>
+								<p class="p-para">per month,bill annualy</p>
+							</div>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle black-circle"
+									aria-hidden="true"
+								></i
+								>Unlimited Gym Access
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle black-circle"
+									aria-hidden="true"
+								></i
+								>Free Clothes
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle black-circle"
+									aria-hidden="true"
+								></i
+								>All Training Program
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle black-circle"
+									aria-hidden="true"
+								></i
+								>Free Consultant
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle black-circle"
+									aria-hidden="true"
+								></i>
+								Free Suplement
+							</p>
+							<p class="cicle-para">
+								<i
+									class="fa fa-check-circle black-circle"
+									aria-hidden="true"
+								></i
+								>Gym Card
+							</p>
+						</div>
+					</div>
+					<button class="reg-this">Register Now</button>
+				</div>
+			</div>
+		</div>
+		<!-- Pricing  -->
+		<!-- Member profile-->
+		<p class="Testimonial">Testimonial</p>
+		<div class="container">
+			<div class="member-profile">
+				<div class="member">
+					<h1 class="h-forth">What Our Member Say About Us?</h1>
+					<div class="chat-img-para">
+						<div class="chat-img">
+							<img src="../imges/img-5.png" alt="" class="chat-img" />
+							<img src="../imges/img-6.png" alt="" class="chat-img1" />
+							<img src="../imges/img-7.png" alt="" class="chat-img2" />
+						</div>
+						<p class="chat-para">10K+ Satisfied Customer</p>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="swiper mySwiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide chat-slide">
+								<div class="chat-star">
+									<i class="fa fa-star chat-star-color" aria-hidden="true"></i>
+									<i class="fa fa-star chat-star-color" aria-hidden="true"></i>
+									<i class="fa fa-star chat-star-color" aria-hidden="true"></i>
+									<i class="fa fa-star chat-star-color" aria-hidden="true"></i>
+									<i class="fa fa-star chat-star-color" aria-hidden="true"></i>
+								</div>
+								<div class="chat-para-new">
+									“ Join this fitness member, the best choice that I’ve. They’re
+									very professional and give you suggestion about what food and
+									nutrition that you can eat”
+								</div>
+								<div class="chat-img-new">
+									<img src="../imges/img-6.png" alt="" />
+									<div class="chat-text">
+										<h5>William Gead</h5>
+										<p>Office Owner</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide chat-slide">
+								<div class="chat-star">
+									<i class="fa fa-star chat-star-color" aria-hidden="true"></i>
+									<i class="fa fa-star chat-star-color" aria-hidden="true"></i>
+									<i class="fa fa-star chat-star-color" aria-hidden="true"></i>
+									<i class="fa fa-star chat-star-color" aria-hidden="true"></i>
+									<i class="fa fa-star chat-star-color" aria-hidden="true"></i>
+								</div>
+								<div class="chat-para-new">
+									“ Join this fitness member, the best choice that I’ve. They’re
+									very professional and give you suggestion about what food and
+									nutrition that you can eat”
+								</div>
+								<div class="chat-img-new">
+									<img src="../imges/img-7.png" alt="" />
+									<div class="chat-text">
+										<h5>James Abbott</h5>
+										<p>Company Employee</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide chat-slide">
+								<div class="chat-star">
+									<i class="fa fa-star chat-star-color" aria-hidden="true"></i>
+									<i class="fa fa-star chat-star-color" aria-hidden="true"></i>
+									<i class="fa fa-star chat-star-color" aria-hidden="true"></i>
+									<i class="fa fa-star chat-star-color" aria-hidden="true"></i>
+									<i class="fa fa-star chat-star-color" aria-hidden="true"></i>
+								</div>
+								<div class="chat-para-new">
+									“ Join this fitness member, the best choice that I’ve. They’re
+									very professional and give you suggestion about what food and
+									nutrition that you can eat”
+								</div>
+								<div class="chat-img-new">
+									<img src="../imges/img-8.png" alt="" />
+									<div class="chat-text">
+										<h5>Jonathan Edward</h5>
+										<p>Office Worker</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+						<div class="swiper-button-next right-arrow"></div>
+						<div class="swiper-button-prev left-arrow"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Member profile -->
+		<!-- Informition -->
+		<div class="container">
+			<div class="informition">
+				<div class="subscribe">
+					<div class="subscribe-para">
+						<div class="sub-para">
+							<h3>Subscribe our fitness tips</h3>
+							<p>
+								Clearly communicate the benefits of subscribing, such as
+								exclusive content and breaking news.
+							</p>
+						</div>
+						<input
+							type="email"
+							name="email"
+							class="email"
+							placeholder="Enter your email address"
+						/>
+						<button class="subs-btn">Subscribe</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Informition -->
+		<!-- Blog -->
+		<div class="container">
+			<div class="blog">
+				<div class="blog-logo">
+					<img src="../imges/logo-1.png" alt="" />
+					<p>Highlight benefits of each exercise, both physical and mental</p>
+				</div>
+				<div class="blog-inofrm">
+					<div class="site">
+						<h6>Sitemap</h6>
+						<ul>
+							<li><a href="">About Us</a></li>
+							<li><a href="">Promos</a></li>
+							<li><a href="">News & Blog</a></li>
+							<li><a href="">Help Center</a></li>
+						</ul>
+					</div>
+					<div class="support">
+						<h6>Support</h6>
+						<ul>
+							<li><a href="">FAQ</a></li>
+							<li><a href="">Support Center</a></li>
+						</ul>
+					</div>
+					<div class="social">
+						<h6>Social Media</h6>
+						<div class="sociles">
+							<a href="https://www.instagram.com/"
+								><i class="fa fa-instagram" aria-hidden="true"></i
+							></a>
+							<a href="https://www.twitter.com"
+								><i class="fa fa-twitter-square" aria-hidden="true"></i
+							></a>
+							<a href="https://www.facebook.com"
+								><i class="fa fa-facebook-square" aria-hidden="true"></i
+							></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr />
+		<!-- Blog -->
+		<!-- Copy Right -->
+		<div class="container">
+			<div class="copyright">
+				<div class="copy-b">
+					<a href="">Term of Use</a>
+					<a href="">Privacy Policy</a>
+				</div>
+				<div class="copy-r">
+					<span>&copy;</span>
+					<p>Powered By Flashost</p>
+				</div>
+			</div>
+		</div>
+		<!-- Copy Right -->
+		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+		<script src="../js/script.js"></script>
+	</body>
+</html>
